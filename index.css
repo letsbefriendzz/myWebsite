@@ -1,0 +1,90 @@
+body {
+    background-color: rgb(34, 41, 54);
+    width: 97vw;
+    height: 97vh
+}
+
+#hi {
+    height: 100px;
+}
+
+#final {
+    font-size: 20pt;
+}
+
+#why {
+    height: auto;
+}
+
+#why h2 {
+    font-size: 30pt;
+}
+
+#ryan {
+    height: 200px;
+}
+
+.main, .sub {
+    display: flex;
+    justify-content: center;
+    padding: 0%;
+    margin: -20px;
+}
+
+.main h1, .sub h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    font-size: 80pt;
+}
+
+.sub {
+    height: auto;
+}
+
+.sub h2 {
+    font-style: oblique;
+    font-weight: 400;
+    font-size: 20pt;
+    text-align: center;
+}
+
+.main :hover, .sub :hover {
+    cursor: default;
+}
+
+/* nav stuff! */
+
+#nav {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#nav li {
+    width: 30vw;
+    float: left;
+}
+
+#nav li a {
+    /*font formatting*/
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    display: block;
+    color: white;
+
+    text-align: center;
+    text-decoration: none;
+
+    padding: 14px 16px;
+    /*sets transition property and duration*/
+    transition-duration: 1s;
+    transition-property: color;
+}
+
+#nav li a:hover {
+    color: goldenrod;
+}
