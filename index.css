@@ -4,14 +4,21 @@ body {
     height: 97vh
 }
 
+.main, .sub {
+    display: flex;
+    justify-content: center;
+    padding: 0%;
+    margin: -20px;
+}
+
+/*
 #hi {
-    height: 100px;
+    height: auto;
 }
 
 #final {
     font-size: 20pt;
 }
-/*meme*/
 
 #why {
     height: auto;
@@ -52,6 +59,7 @@ body {
 .main :hover, .sub :hover {
     cursor: default;
 }
+*/
 
 /* nav stuff! */
 
