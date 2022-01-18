@@ -1,5 +1,6 @@
 body {
-    background-color: rgb(34, 41, 54);
+    background-image: url("./images/bckgr.png");
+    background-size: 150vh;
     width: 97vw;
     height: 97vh;
 }
@@ -15,6 +16,9 @@ body {
 
 #body-margin {
     padding: 1vw;
+    background-color: rgba(34, 41, 54, 0.4);
+    border-radius: 25px;
+
 }
 
 /*laughably bad design but it works!! >:D*/
