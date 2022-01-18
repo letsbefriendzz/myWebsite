@@ -1,14 +1,37 @@
 body {
     background-color: rgb(34, 41, 54);
     width: 97vw;
-    height: 97vh
+    height: 97vh;
 }
 
 .main, .sub {
     display: flex;
     justify-content: center;
     padding: 0%;
-    margin: -20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    font-size: 20pt;
+}
+
+#body-margin {
+    padding: 1vw;
+}
+
+/*laughably bad design but it works!! >:D*/
+
+#ryan {
+    margin-top: -7vh;
+}
+
+.sub {
+    font-style: oblique;
+    font-weight: 300;
+    font-size: 15pt;
+    text-align: center;
+}
+
+.main :hover, .sub :hover {
+    cursor: default;
 }
 
 /*
@@ -47,17 +70,6 @@ body {
 
 .sub {
     height: auto;
-}
-
-.sub h2 {
-    font-style: oblique;
-    font-weight: 400;
-    font-size: 1.5vw;
-    text-align: center;
-}
-
-.main :hover, .sub :hover {
-    cursor: default;
 }
 */
 
