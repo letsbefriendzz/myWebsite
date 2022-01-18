@@ -34,45 +34,6 @@ body {
     cursor: default;
 }
 
-/*
-#hi {
-    height: auto;
-}
-
-#final {
-    font-size: 20pt;
-}
-
-#why {
-    height: auto;
-}
-
-#why h2 {
-    font-size: 30pt;
-}
-
-#ryan {
-    height: 200px;
-}
-
-.main, .sub {
-    display: flex;
-    justify-content: center;
-    padding: 0%;
-    margin: -20px;
-}
-
-.main h1, .sub h2 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: whitesmoke;
-    font-size: 5vw;
-}
-
-.sub {
-    height: auto;
-}
-*/
-
 /* nav stuff! */
 
 #nav {
